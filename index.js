@@ -13,7 +13,7 @@ const code = ["h","t","h","h","t","t","h","h","h","h","t","t","t","h","t","t","t
 let i = 0;
 let isRunning = false;
 let intervalId = null;
-if (amount > 2500){
+if (amount > 25000){
 	amount = 2500;
 }
 client.on('messageCreate', (message) =>{
