@@ -59,4 +59,4 @@ client.on('messageCreate', (message) =>{
 	  }
 })
 
-client.login(settings.token)
+client.login(process.env.token)
